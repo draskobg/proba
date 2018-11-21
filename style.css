@@ -1,0 +1,10 @@
+body {
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+header, footer {
+overflow: auto;
+background-image: linear-gradient(red, blue, white);
+
+}
+
