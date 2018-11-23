@@ -4,11 +4,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 header, footer {
-<<<<<<< HEAD
 color: red;
-=======
-  color: red;
->>>>>>> 373542a7f4ef3323b4195b1c5ec89388e4139c90
 overflow: auto;
 background-image: linear-gradient(red, blue, white);
 }
@@ -16,4 +12,23 @@ background-image: linear-gradient(red, blue, white);
 .container {
   padding-left: 10%;
   padding-right: 10%;
+}
+nav {
+color: white;
+display: block;
+font-size: 21px;
+height: 47px;
+line-height: 46px;
+padding: 0 30px 0 0;
+text-align: center;
+text-decoration: none;
+text-transform: uppercase;
+position: relative;
+
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: red;
 }
