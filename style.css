@@ -6,29 +6,52 @@ body {
 header, footer {
 color: red;
 overflow: auto;
-background-image: linear-gradient(red, blue, white);
+background-image: linear-gradient( blue, white);
 }
 
 .container {
   padding-left: 10%;
   padding-right: 10%;
 }
-nav {
-color: white;
-display: block;
-font-size: 21px;
-height: 47px;
-line-height: 46px;
-padding: 0 30px 0 0;
-text-align: center;
-text-decoration: none;
-text-transform: uppercase;
-position: relative;
 
+nav {
+  background-color: #333;
+  max-width: 100%;
+  
 }
-a {
-  text-decoration: none;
+nav a {
+color: #fff;
+display: block;
+text-decoration: none;
+padding: 4px 8px;
+border-bottom: 1px solid gray;
+text-align: center;
 }
-a:hover {
-  color: red;
+
+nav a:hover {
+  background: #444;
+}
+
+@media (min-width: 600px)
+{
+  nav {
+    padding-right: 10%;
+    border: 0;
+    background-color: rgb(122,77,77)
+  }
+  nav a {
+    display: inline-block;
+    border: 0;
+
+  }
+}
+@media (min-width:1000px) {
+  nav {
+    text-align: right;
+    padding-right: 10%;
+  }
+}
+
+img {
+  max-width: 100%;
 }
