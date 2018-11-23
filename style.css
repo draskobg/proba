@@ -4,7 +4,11 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 header, footer {
+<<<<<<< HEAD
 color: red;
+=======
+  color: red;
+>>>>>>> 373542a7f4ef3323b4195b1c5ec89388e4139c90
 overflow: auto;
 background-image: linear-gradient(red, blue, white);
 }
