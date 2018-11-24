@@ -1,0 +1,68 @@
+.header {
+  min-height: 100px;
+  background-color: #001747;
+}
+
+.navigation {
+  text-align: center;
+}
+
+ul {
+
+
+  display: inline-block;
+  margin-right: 20px;
+  color: white;
+  font-size: 13px;
+  height: 47px;
+  line-height: 46px;
+  text-transform: uppercase;
+
+}
+
+.prvi {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+p {
+  float: left;
+  max-width: 50%;
+  padding: 20px;
+}
+
+.drugi img {
+  float: right;
+  max-width: 100%;
+}
+
+.prvi div {
+  min-height: 300px;
+  background: #11487D;
+  margin: 10px;
+}
+
+.drugi {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.drugi div {
+  height: 200px;
+  width: 200px;
+  background: #0E7FA6;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+h1 {
+  text-align: center;
+}
+.usluge {
+  overflow: auto;
+}
+.usluge p {
+  text-align: center;
+  max-width: 100%;
+}

@@ -1,0 +1,41 @@
+.okvir div {
+  width: 200px;
+  height: 200px;
+  background: red;
+  border: 2px solid black;
+  margin: 10px;
+}
+
+.okvir {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 800px;
+}
+
+.okvir2 {
+  display: flex;
+}
+
+.okvir2 div{
+  height: 300px;
+  width: 50%;
+  background: green;
+  border: 2px solid blue;
+  margin: 10px;
+}
+
+.okvir3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.okvir3 div{
+  height: 200px;
+  
+  background: blue;
+  border: 2px solid green;
+  margin: 10px;
+  border-radius: 50%;
+}
